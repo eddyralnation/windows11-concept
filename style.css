@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Barcode+128+Text&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background: url(bg.jpg);
+	background-attachment: fixed;
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+}
+footer
+{
+	position: fixed;
+	width: 100%;
+	background: whitesmoke;
+	outline: 1px solid;
+	height: 50px;
+	backdrop-filter: blur(50px);
+	bottom: 0;
+}
+footer .logo img 
+{
+	width: 80px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	cursor: pointer;
+	transition: 0.45s;
+	border-radius: 50%;
+}
+footer .logo img:hover
+{
+	margin-top: -8px;
+	background-color: #000;
+	opacity: 80%;
+	box-shadow: 10px 10px 50px grey;
+	border-radius: 50%;
+}
+.logo ul 
+{
+	background: #f1f1f1;
+	width: 550px;
+	height: 550px;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-110%);
+	box-shadow: 10px 10px 50px grey;
+	border-radius: 20px;
+}
+.logo ul li 
+{
+	list-style: none;
+	transform: scale(.6);
+	margin-right: 20px;
+	margin-left: 20px;
+	padding: 50px;
+}
+.logo ul
+{
+	transition: 0.5s;
+	overflow: hidden;
+	display: inline-flex;
+	gap: 50px;
+}
+.logo ul h1
+{
+	position: absolute;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 1.3em;
+	padding: 20px 20px;
+
+}
